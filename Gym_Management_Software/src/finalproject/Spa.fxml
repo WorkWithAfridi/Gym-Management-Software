@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="625.0" prefWidth="1250.0" style="-fx-background-color: #F2EBD9;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="finalproject.SpaController">
+   <children>
+      <VBox prefHeight="625.0" prefWidth="211.0">
+         <children>
+            <AnchorPane prefHeight="52.0" prefWidth="222.0" style="-fx-background-color: #060606;">
+               <children>
+                  <ImageView fitHeight="89.0" fitWidth="222.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../TabImgages/Imgaes%20(2).jpeg" />
+                     </image>
+                  </ImageView>
+                  <Button layoutX="59.0" layoutY="20.0" mnemonicParsing="false" onAction="#Home" opacity="0.85" prefHeight="25.0" prefWidth="105.0" style="-fx-background-color: #FEFF01;" text="HOME">
+                     <font>
+                        <Font name="System Bold Italic" size="12.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.29" />
+                     </effect>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="67.0" prefWidth="222.0" style="-fx-background-color: #060606;">
+               <children>
+                  <ImageView fitHeight="69.0" fitWidth="247.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../TabImgages/Imgaes%20(15).jpg" />
+                     </image>
+                  </ImageView>
+                  <Button layoutX="59.0" layoutY="22.0" mnemonicParsing="false" onAction="#LifeStyle" opacity="0.85" prefHeight="25.0" prefWidth="105.0" style="-fx-background-color: #7B7A7F;" text="Life Style" textFill="WHITE">
+                     <font>
+                        <Font name="System Italic" size="12.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.29" />
+                     </effect>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="10.0" layoutY="82.0" prefHeight="54.0" prefWidth="222.0" style="-fx-background-color: #060606;">
+               <children>
+                  <ImageView fitHeight="69.0" fitWidth="221.0" layoutX="4.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../TabImgages/Imgaes%20(11).jpg" />
+                     </image>
+                  </ImageView>
+                  <Button layoutX="56.0" layoutY="23.0" mnemonicParsing="false" onAction="#FitPlans" opacity="0.85" prefHeight="25.0" prefWidth="105.0" style="-fx-background-color: #060918;" text="Fit Plans" textFill="WHITE">
+                     <font>
+                        <Font name="System Italic" size="12.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.29" />
+                     </effect>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="10.0" layoutY="154.0" prefHeight="42.0" prefWidth="222.0" style="-fx-background-color: #060606;">
+               <children>
+                  <ImageView fitHeight="71.0" fitWidth="228.0" layoutX="-6.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../TabImgages/Imgaes%20(14).jpg" />
+                     </image>
+                  </ImageView>
+                  <Button layoutX="59.0" layoutY="14.0" mnemonicParsing="false" onAction="#Accessories_handleBAccuttonAction" opacity="0.85" prefHeight="25.0" prefWidth="105.0" style="-fx-background-color: #BB0644;" text="Accessories" textFill="WHITE">
+                     <font>
+                        <Font name="System Italic" size="12.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.29" />
+                     </effect>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="10.0" layoutY="226.0" prefHeight="72.0" prefWidth="222.0" style="-fx-background-color: #060606;">
+               <children>
+                  <ImageView fitHeight="72.0" fitWidth="223.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../TabImgages/Imgaes%20(13).jpg" />
+                     </image>
+                  </ImageView>
+                  <Button layoutX="59.0" layoutY="24.0" mnemonicParsing="false" onAction="#Trainers" opacity="0.85" prefHeight="25.0" prefWidth="105.0" style="-fx-background-color: #3B2727;" text="Trainers" textFill="WHITE">
+                     <font>
+                        <Font name="System Italic" size="12.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.29" />
+                     </effect>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="10.0" layoutY="298.0" prefHeight="54.0" prefWidth="223.0" style="-fx-background-color: #060606;">
+               <children>
+                  <ImageView fitHeight="69.0" fitWidth="240.0" layoutX="-11.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../TabImgages/Imgaes%20(10).jpg" />
+                     </image>
+                  </ImageView>
+                  <Button layoutX="59.0" layoutY="24.0" mnemonicParsing="false" onAction="#PersonalTrainers" opacity="0.85" prefHeight="25.0" prefWidth="105.0" style="-fx-background-color: #0C8AB3;" text="Personal Trainer" textFill="WHITE">
+                     <font>
+                        <Font name="System Italic" size="12.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.29" />
+                     </effect>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+               </children></AnchorPane>
+            <AnchorPane layoutX="10.0" layoutY="370.0" prefHeight="72.0" prefWidth="222.0" style="-fx-background-color: #060606;">
+               <children>
+                  <ImageView fitHeight="72.0" fitWidth="223.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../TabImgages/Imgaes%20(12).jpg" />
+                     </image>
+                  </ImageView>
+                  <Button layoutX="59.0" layoutY="24.0" mnemonicParsing="false" onAction="#NewArraivals" opacity="0.85" prefHeight="25.0" prefWidth="105.0" style="-fx-background-color: #E80000;" text="NEW ARRAIVALS" textFill="WHITE">
+                     <font>
+                        <Font name="System Italic" size="12.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.29" />
+                     </effect>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+               </children></AnchorPane>
+            <AnchorPane layoutX="10.0" layoutY="514.0" prefHeight="58.0" prefWidth="222.0" style="-fx-background-color: #060606;">
+               <children>
+                  <AnchorPane layoutX="1.0" prefHeight="63.0" prefWidth="222.0" style="-fx-background-color: #D5D2CA;">
+                     <children>
+                        <Label layoutX="27.0" layoutY="5.0" text="Try us for 3 days FREE">
+                           <font>
+                              <Font name="Old English Text MT" size="16.0" />
+                           </font>
+                        </Label>
+                        <Button layoutX="59.0" layoutY="26.0" mnemonicParsing="false" onAction="#GymPass" opacity="0.85" prefHeight="29.0" prefWidth="105.0" style="-fx-background-color: #E91627;" text="GYM PASS" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                           <effect>
+                              <Glow level="0.29" />
+                           </effect>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Button>
+                     </children>
+                  </AnchorPane>
+               </children></AnchorPane>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #060606;">
+               <children>
+                  <Hyperlink layoutX="94.0" layoutY="3.0" onAction="#FAQs" text="FAQs" />
+                  <Hyperlink layoutX="84.0" layoutY="26.0" onAction="#AboutUs" text="About us" />
+                  <Hyperlink layoutX="84.0" layoutY="49.0" onAction="#Logout" text="LOGOUT" />
+               </children>
+            </AnchorPane>
+         </children>
+      </VBox>
+      <ImageView fitHeight="412.0" fitWidth="552.0" layoutX="223.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../TabImgages/0.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="282.0" fitWidth="519.0" layoutX="725.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../TabImgages/00.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="255.0" fitWidth="517.0" layoutX="725.0" layoutY="273.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../TabImgages/000.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="160.0" fitWidth="502.0" layoutX="223.0" layoutY="410.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../TabImgages/0000.png" />
+         </image>
+      </ImageView>
+      <Hyperlink layoutX="1182.0" layoutY="559.0" onAction="#back" text="Back" underline="true">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </Hyperlink>
+   </children>
+</AnchorPane>
